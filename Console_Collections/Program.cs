@@ -5,15 +5,7 @@ namespace Console_Collections
 {
 
 
-    public class MyClass
-    {
-        
-        public string MyProperty { get; set; } = "dron";
-
-        
-        public void Fu() { Console.WriteLine(MyProperty); }
-
-    }
+    
 
 
 
@@ -23,15 +15,9 @@ namespace Console_Collections
         {
 
 
-            MyClass myClass = new MyClass();
-            myClass.Fu();
-            myClass.MyProperty = "2";
-            Console.WriteLine(myClass.MyProperty);
            
            
-           
-            
-
+    
 
             List<string> list = new List<string>() {"Dron7","Nata","Lero" };
             foreach (var item in list)
